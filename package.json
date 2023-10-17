@@ -1,0 +1,31 @@
+{
+  "name": "@algomax/lib-boilerplate",
+  "version": "0.0.1",
+  "description": "Typescript Boilerplate for Algomax",
+  "main": "dist/index.js",
+  "author": "innoprenuer",
+  "license": "Unlicensed",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "lint": "yarn format && node_modules/.bin/eslint .",
+    "build": "yarn lint && node_modules/.bin/tsc",
+    "start": "dist/index.js",
+    "format": "node_modules/.bin/prettier --write 'src/**/*.ts' --config .prettierrc.json",
+    "watch": "node_modules/.bin/tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.51.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.10.0",
+    "npm": ">=8.0.0"
+  }
+}
