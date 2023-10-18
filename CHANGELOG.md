@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/innopreneur/typescript-sdk-boilerplate/compare/v0.0.4...v0.0.5) (2023-10-18)
+
+
+### Features
+
+* **ci:** added npm publish flow ([d43dfee](https://github.com/innopreneur/typescript-sdk-boilerplate/commit/d43dfee975fc17aba9f27c7a1366219eec1e520a))
+
 ### [0.0.4](https://github.com/innopreneur/typescript-sdk-boilerplate/compare/v0.0.3...v0.0.4) (2023-10-18)
 
 
