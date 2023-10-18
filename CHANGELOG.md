@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/innopreneur/typescript-sdk-boilerplate/compare/v0.0.6...v0.0.7) (2023-10-18)
+
+
+### Bug Fixes
+
+* **ci:** marked package as public ([0ce3118](https://github.com/innopreneur/typescript-sdk-boilerplate/commit/0ce31184b380330522a56336e2f1a990894afd74))
+
 ### [0.0.6](https://github.com/innopreneur/typescript-sdk-boilerplate/compare/v0.0.5...v0.0.6) (2023-10-18)
 
 

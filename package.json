@@ -1,6 +1,6 @@
 {
   "name": "typescript-sdk-boilerplate",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Typescript SDK Boilerplate",
   "main": "dist/index.js",
   "author": "innoprenuer",
