@@ -1,10 +1,10 @@
 {
-  "name": "@algomax/lib-boilerplate",
+  "name": "typescript-sdk-boilerplate",
   "version": "0.0.3",
-  "description": "Typescript Boilerplate for Algomax",
+  "description": "Typescript SDK Boilerplate",
   "main": "dist/index.js",
   "author": "innoprenuer",
-  "license": "Unlicensed",
+  "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "prepare": "node_modules/.bin/husky install",
