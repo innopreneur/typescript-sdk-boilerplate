@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/innopreneur/typescript-sdk-boilerplate/compare/v0.0.2...v0.0.3) (2023-10-18)
+
+
+### Features
+
+* **more-tools:** added husly hooks, removed semantic-version ([d09f2be](https://github.com/innopreneur/typescript-sdk-boilerplate/commit/d09f2be876f8f7469b9a4504bec0244f21c1e2d4))
+
 ### 0.0.2 (2023-10-18)
 
 
