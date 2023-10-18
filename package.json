@@ -12,20 +12,34 @@
     "build": "yarn lint && node_modules/.bin/tsc",
     "start": "dist/index.js",
     "format": "node_modules/.bin/prettier --write 'src/**/*.ts' --config .prettierrc.json",
-    "watch": "node_modules/.bin/tsc --watch"
+    "watch": "node_modules/.bin/tsc --watch",
+    "release": "node_modules/.bin/standard-version",
+    "commit": "node_modules/.bin/cz",
+    "prepare": "node_modules/.bin/husky install"
   },
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^20.4.2",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
+    "commitizen": "^4.3.0",
     "eslint": "^8.51.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
     "prettier": "^3.0.3",
+    "semantic-release": "^22.0.5",
     "typescript": "^5.1.6"
   },
   "engines": {
-    "node": ">=18.10.0",
+    "node": ">=20.6.1",
     "npm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ]
   }
 }
