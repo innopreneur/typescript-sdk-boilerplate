@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "author": "innoprenuer",
   "license": "Apache-2.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "prepare": "node_modules/.bin/husky install",
     "clean": "rm -rf ./dist",
