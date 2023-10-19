@@ -17,7 +17,9 @@
     "release": "node_modules/.bin/standard-version",
     "commit": "node_modules/.bin/cz"
   },
-  "dependencies": {},
+  "dependencies": {
+    "winston": "^3.11.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
     "@commitlint/config-conventional": "^17.8.0",
